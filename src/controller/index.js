@@ -1,8 +1,6 @@
 const homepage = (req,res)=>{ 
-    let  Endpoint=`/room/createroom`
        res.status(200).send({
-        message:`Welcome to Hall Booking System`,
-        Endpoint
+        message:`Welcome to Hall Booking System: Kindly refer documentation link/readme for the workflow`, 
     })
 }
 

@@ -26,6 +26,7 @@ render url:https://hall-booking-5gg1.onrender.com
             *initially availaible room id will be R1 so you can use this ,to use another roomid you should create that room by using the previously mentioned endpoint(/room/createroom)
             *on making a booking customer will be created and stored in the database (as of now local variable)
             *date valiadations are not done but make sure you enter a future date for both startdate and enddate
+            
 5)endpoint:"/room/getcustomers"-its a get request to get all the customer details (initially customers will be zero ) 
 
 6)endpoint:"/room/getcusthistory"-its a get request to get a slight glimpse of the past history of the customers
